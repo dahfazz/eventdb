@@ -1,0 +1,30 @@
+.topics {
+  display: grid;
+  width: 100%;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 160px;
+}
+
+.topic {
+  background: var(--light);
+  color: var(--dark);
+  text-align: center;
+  font-size: 1rem;
+  min-height: 40px;
+  line-height: 40px;
+  border-radius: 3px;
+}
+.topic::before {
+  content: '';
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.topic:hover,
+.topic:focus {
+  color: var(--darkest);
+  outline: 3px solid var(--darkest);
+}

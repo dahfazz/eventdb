@@ -1,0 +1,25 @@
+.results {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  left: 16px;
+  top: 96px;
+}
+
+.result {
+  border-bottom: 1px solid var(--dark);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.result > .card--mini {
+  margin-right: 20px;
+}
+
+.result__label {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Chivo';
+}

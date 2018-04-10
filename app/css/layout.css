@@ -1,0 +1,27 @@
+.wrapper {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.wrapper--alt {
+  background: var(--light);
+}
+
+.section {
+  margin-top: 70px;
+}
+
+.page__header {
+  background: var(--light);
+  margin-bottom: 50px;
+  padding: 25px 0;
+}
+.page__header > .wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.page__title {
+  font-size: 4rem;
+  color: var(--dark);
+}

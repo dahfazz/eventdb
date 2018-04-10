@@ -1,0 +1,16 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+}
+
+.gallery__item {
+  padding: 6px;
+  text-align: center;
+}
+
+.gallery__item > iframe {
+  
+  /* box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.2); */
+}

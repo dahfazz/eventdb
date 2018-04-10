@@ -1,0 +1,27 @@
+.list {
+  display: block;
+  white-space: nowrap;
+  width: calc(100% + 35px);
+  overflow-x: auto;
+  margin-left: -35px;
+}
+.list__item {
+  margin: 20px 35px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.event {
+
+}
+
+.event__img {
+  max-height: 70px;
+  filter: grayscale(1);
+  transition: all .2s;
+}
+
+.event__img:hover {
+  filter: grayscale(0);
+}
