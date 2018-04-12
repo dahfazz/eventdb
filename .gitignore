@@ -1,0 +1,17 @@
+# Node .gitignore template
+# https://github.com/github/gitignore/blob/master/Node.gitignore
+
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+dist
+lib-cov
+pids
+logs
+results
+node_modules
