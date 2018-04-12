@@ -1,0 +1,7 @@
+- Promote 1 (more?) videos in huge intro on homepage (cd TED)
+- Company page
+- Promote new release on homepage (notification?)
+- Support Podcast
+- Support Slides
+- Flag content with level (starter, intermediate, expert)
+- Create custom playlists
