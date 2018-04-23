@@ -1,0 +1,30 @@
+.speaker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--purple);
+  transition: all 0.5s;
+  position: relative;
+  text-decoration: none;
+}
+
+.speaker__title {
+  text-align: center;
+  display: inline-block;
+  border: 2px solid white;
+  left: 2rem;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s;
+  font-family: 'Montserrat';
+}
+
+.speaker:hover .speaker__title {
+  background-color: var(--flashy);
+}

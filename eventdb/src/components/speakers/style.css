@@ -1,0 +1,33 @@
+.list {
+  --DELTA: 3rem;
+
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  margin: var(--DELTA);
+  position: relative;
+  display: inline-block;
+}
+
+.speaker:active {
+  box-shadow: none;
+}
+
+.speaker {
+  --CIRCLE-SIZE: 11rem;
+  display: block;
+  width: var(--CIRCLE-SIZE);
+  height: var(--CIRCLE-SIZE);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20%;
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}

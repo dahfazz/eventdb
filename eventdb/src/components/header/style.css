@@ -1,0 +1,14 @@
+
+.header {
+  background: #222;
+}
+.header__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.btn {
+  font-size: 3rem;
+  color: white;
+}

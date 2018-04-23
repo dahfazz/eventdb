@@ -1,0 +1,45 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 80vh repeat(2, 50vh);
+  grid-gap: 0.2rem;
+}
+
+.grid__cell_animatedanimated {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.grid__cell_animated:hover {
+  z-index: 990;
+  transform: translate(0.6rem, -0.6rem);
+  box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid .grid__cell:first-child {
+  grid-area: 1 / 1 / 1 / 6;
+}
+
+.grid .grid__cell:nth-child(2) {
+  grid-area: 2 / 1 / 2 / 2;
+}
+
+.grid .grid__cell:nth-child(4) {
+  grid-area: 2 / 2 / 2 / 4;
+}
+
+.grid .grid__cell:nth-child(3) {
+  grid-area: 2 / 4 / 2 / 6;
+}
+
+.grid .grid__cell:nth-child(5) {
+  grid-area: 3 / 1 / 3 / 3;
+}
+
+.grid .grid__cell:nth-child(6) {
+  grid-area: 3 / 3 / 3 / 4;
+}
+
+.grid .grid__cell:nth-child(7) {
+  grid-area: 3 / 4 / 3 / 6;
+}

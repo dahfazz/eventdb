@@ -1,0 +1,40 @@
+.logo {
+  color: white;
+  margin-right: 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 0;
+  z-index: 90;
+  padding: 10px;
+  margin: 0;
+}
+.logo div:first-child {
+  margin-bottom: 0.35rem;
+}
+.logo span {
+  --s: 2rem;
+  width: var(--s);
+  height: var(--s);
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  margin-right: 0.35rem;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: var(--s);
+  position: relative;
+  z-index: 2;
+}
+
+.logo::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  z-index: 1;
+  background-image: linear-gradient(to top, transparent, black);
+}

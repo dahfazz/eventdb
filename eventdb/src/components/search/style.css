@@ -1,0 +1,30 @@
+.search__form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.search__form > i {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: -1.5rem;
+}
+
+.search__input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background: none;
+  padding: 0.6rem 0.5rem 0.6rem 2rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
+  color: white;
+  display: block;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+.search__input:focus {
+  border-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
